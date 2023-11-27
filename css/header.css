@@ -1,0 +1,160 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+
+    background-color:white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 227, 227);
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.h-menu{
+   height: 25px;
+   margin-right: 25px;
+   margin-left: 23px;
+   cursor: pointer;
+}
+
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.middle{
+   
+    flex: 1;
+    margin-left: 65px;
+    margin-right: 10px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.search-bar{
+ flex:1;
+ height: 39px;
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(195, 194, 194);
+ box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+ padding-left: 10px;
+ border-radius: 2px;
+ width: 0;
+}
+.search-bar::placeholder{
+    font-family: roboto,arial;
+    font-size: 16 px;
+   
+    
+}
+
+.search-icon{
+ height:42px;
+ width: 66px;
+ background-color: rgb(247, 247, 247);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(195, 194, 194);
+ border-radius: 2px;
+ margin-left: -1px;
+ margin-right: 10px;
+ justify-content: center;
+ padding: 7px 17px 7px 17px;
+}
+
+.search-icon:hover{
+    background-color: rgb(235, 235,235);
+}
+.scon{
+    height: 25px;
+}
+
+.voice-s{
+height: 38px;
+width: 40px;
+display: flex;
+ flex-direction: row;
+ align-items: center;
+
+border-width: 1px;
+ border-style: solid;
+ border-color: rgb(245, 245, 245);
+border-radius: 2000px;
+margin-right: 18px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.upload{
+    height: 25px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.app{
+    height: 25px; 
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.noti{
+    height: 27px;
+    cursor: pointer;
+    
+}
+
+.prof{
+    height: 32px;
+    border-radius: 30px;
+    margin-right: 37px;
+    margin-left: 22px;
+    cursor:pointer;
+}
+
+.bells{
+    position: relative;
+}
+
+.bell{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 8px;
+    font-size: 7px;
+    width: 14px;
+    padding-left: 4px;
+    background-color: rgb(232, 66, 66);
+    color: white;
+    font-size: 15px;
+
+    
+   
+}
